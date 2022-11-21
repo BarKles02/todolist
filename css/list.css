@@ -7,8 +7,19 @@
     background-color: #8BA5B7;
 }
 
+.list__button--done {
+    border-style: none;
+    background-color: green;
+    color: #ddd;
+    width: 10px;
+}
+
+.list__button--remove {}
+
 .list__item {
-    display:grid;
+    padding: 7px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .list__item--done {
