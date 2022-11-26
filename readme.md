@@ -10,7 +10,7 @@ Simple to do list app that allows you to add tasks to the list, mark them as don
 
 ### tech used
 
--html
--css
--js
--git
+- html
+- css
+- js
+- git
