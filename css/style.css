@@ -12,5 +12,6 @@ html {
     font-family: 'Lato', sans-serif;
     background-color: #ddd;
     color: black;
-    margin-top:5em;
+    margin-top: 5em;
+    word-break: break-word;
 }

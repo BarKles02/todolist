@@ -21,7 +21,7 @@
 }
 
 .list__button {
-    width: 28px;
+    min-width: 28px;
     height: 28px;
     border-style: none;
 }
