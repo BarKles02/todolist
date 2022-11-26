@@ -1,0 +1,26 @@
+.section {
+    background-color: white;
+    margin-bottom: 20px;
+    padding-top: 1px;
+}
+
+.section__header {
+    border-bottom: 3px solid #ddd;
+}
+
+@media (max-width:767px) {
+    .header {
+        display: flex;
+        justify-content: center;
+    }
+
+    .section__header {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.section__header {
+    font-weight: 1000;
+    padding-left: 10px;
+}

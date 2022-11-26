@@ -1,23 +1,35 @@
 .form {
-    border-radius: 10px;
     padding: 10px;
-    border-radius: 10px;
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1fr 200px;
     grid-gap: 10px;
-    background-color: #8BA5B7;
+}
+
+@media (max-width:767px) {
+    .form {
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .form__button {
+        padding: 10px;
+    }
 }
 
 .form__button {
-    background-color: #00BEFF;
+    background-color: teal;
+    color: #ddd;
     border-style: none;
-    border-radius: 5px;
 }
 
 .form__button:hover {
-    background-color: #0072AD;
+    background-color: rgba(0, 128, 128, 0.75);
+}
+
+.form__button:active {
+    background-color: rgba(0, 128, 128, 0.5);
 }
 
 .form__input {
-    border-radius: 5px;
+    padding: 10px;
 }
